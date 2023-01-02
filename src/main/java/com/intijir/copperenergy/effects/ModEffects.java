@@ -15,7 +15,7 @@ public class ModEffects {
             = DeferredRegister.create(ForgeRegistries.MOB_EFFECTS, CopperEnergy.MODID);
 
     public static final RegistryObject<MobEffect> ENERGIZED = MOB_EFFECTS.register("energized",
-            () -> new EnergizedEffect(MobEffectCategory.NEUTRAL, 80217217));
+            () -> new EnergizedEffect(MobEffectCategory.NEUTRAL, 3599308));
 
     public static void register(IEventBus eventBus){
         MOB_EFFECTS.register(eventBus);
