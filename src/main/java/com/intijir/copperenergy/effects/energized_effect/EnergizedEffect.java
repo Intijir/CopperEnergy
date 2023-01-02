@@ -10,9 +10,9 @@ public class EnergizedEffect extends MobEffect {
     }
 
     @Override
-    public void applyEffectTick(LivingEntity pLivingEntity, int pAmplifier) {
+    public void applyEffectTick(LivingEntity livingEntity, int pAmplifier) {
 
-        super.applyEffectTick(pLivingEntity, pAmplifier);
+        super.applyEffectTick(livingEntity, pAmplifier);
     }
 
     @Override
