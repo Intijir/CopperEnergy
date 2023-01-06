@@ -1,3 +1,7 @@
 {
-  "effect.copper_energy.energized": "Energized"
+  "effect.copper_energy.energized": "Energized",
+  "item.copper_energy.base_copper_helmet": "Copper Helmet",
+  "item.copper_energy.base_copper_chestplate": "Copper Chestplate",
+  "item.copper_energy.base_copper_leggings": "Copper Leggings",
+  "item.copper_energy.base_copper_boots": "Copper Boots"
 }

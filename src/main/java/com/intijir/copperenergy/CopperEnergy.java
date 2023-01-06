@@ -3,6 +3,7 @@ package com.intijir.copperenergy;
 import com.intijir.copperenergy.effects.ModEffects;
 import com.intijir.copperenergy.effects.energized_effect.EnergizedEffect;
 import com.intijir.copperenergy.events.ModEvents;
+import com.intijir.copperenergy.items.ModItems;
 import com.mojang.logging.LogUtils;
 import net.minecraft.client.Minecraft;
 import net.minecraft.network.chat.Component;
@@ -55,6 +56,7 @@ public class CopperEnergy {
 
         MinecraftForge.EVENT_BUS.register(this);
         MinecraftForge.EVENT_BUS.register(new ModEvents());
+        ModItems.register(modEventBus);
 
     }
 
